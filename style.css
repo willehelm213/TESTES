@@ -1,0 +1,59 @@
+body {
+    font-family: "Atkinson Hyperlegible Next", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200px;
+    background-color: #ffffe6;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color:black;
+    text-align: center;
+}
+
+ul{
+    color:#4d4d00;
+    
+}
+
+#eitadois{
+    color:#4d4d00;
+    width:60px;
+    height:20px;
+}
+
+#eita{
+    width:100px;
+    height:20px;
+}
+
+.container {
+    display: flex; /* Ativa o flexbox para alinhar lado a lado */
+    justify-content: center; /* Centraliza os cards na tela */
+    gap: 40px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Se a tela for pequena, quebra para a linha de baixo */
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Largura fixa para manter alinhado */
+    text-align: center;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+}
+
+ul.myUL{
+    display: inline-block;
+    text-align: left;
+}
