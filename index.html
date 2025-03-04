@@ -1,44 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header><h1>Portfólio de Guilherme Simões!</h1></header>
-    <section>
-        <p>Meus interesses abaixo:</p>
-        <div class="lista">
-            <ul>
-                <li class ="listali">Desenvolvimento Web</li>
-            </ul>
-            <ul>
-                <li class="listali">Desenvolvimento de API's</li>
-            </ul>
-            <ul>
-                <li class="listali">Desenvolvimento de Bots</li>
-            </ul>
-            </div>
-        <p>Minhas redes sociais abaixo:</p>
-        <div class="lista">
-        <ul>
-            <li><a href="https://br.linkedin.com/in/willehelm213">LinkedIn</a></li>
-            <li><a href="https://github.com/willehelm213">GitHub</a></li>
-        </ul>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#cta" class="cta-button">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to MyBrand</h1>
+      <p>Your solution for [problem your product solves].</p>
+      <a href="#cta" class="cta-button">Get Started</a>
     </div>
-        <p>Você pode ver meus projetos clicando <a href="servicos.html">aqui</a></p>
-    </section>
-    <footer>
-    <form>
-        <a>Seu nome </a><input type="text"> <br>
-        <a>Seu email </a><input type="text"> <br>
-        <button id="eitadois" type="button">Enviar</button>
-    </form>
-    </footer>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <h3>Feature One</h3>
+        <p>Description of feature one.</p>
+      </div>
+      <div class="card">
+        <h3>Feature Two</h3>
+        <p>Description of feature two.</p>
+      </div>
+      <div class="card">
+        <h3>Feature Three</h3>
+        <p>Description of feature three.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-cards">
+      <div class="card">
+        <p>"This product changed my life!"</p>
+        <span>- User One</span>
+      </div>
+      <div class="card">
+        <p>"Highly recommended!"</p>
+        <span>- User Two</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="cta">
+    <h2>Ready to Get Started?</h2>
+    <p>Join thousands of happy users today.</p>
+    <a href="#" class="cta-button">Sign Up Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">MyBrand</div>
+      <ul class="footer-links">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascript.js"></script>
 </body>
 </html>
